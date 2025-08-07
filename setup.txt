@@ -1,0 +1,20 @@
+
+- Install python `3.12.6`
+  ```
+  uv python install 3.12.6
+  uv python pin 3.12.6
+  ```
+- Set up venv
+  ```
+  uv venv
+  source .venv/bin/activate
+  ```
+- Install packages
+  ```
+  uv pip install -r ./src/requirements.txt
+  ```
+
+
+brew install ollama
+
+brew services start ollama
