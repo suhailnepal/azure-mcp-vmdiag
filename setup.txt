@@ -11,10 +11,20 @@
   ```
 - Install packages
   ```
-  uv pip install -r ./src/requirements.txt
+  uv pip install -r requirements.txt
   ```
 
 
 brew install ollama
 
 brew services start ollama
+
+ollama pull llama3.1:8b
+
+
+Use multi file
+
+python -m ollama_multi.cli
+
+python ollama_single/mcp_ollama.py
+
